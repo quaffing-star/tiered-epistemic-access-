@@ -9,10 +9,10 @@ This document provides a diagram-ready summary of the ecosystem architecture, su
 
 The Tiered Epistemic Access Framework is organized into five major functional bands:
 
-1. **Governance & Coordination**
-2. **Risk, Experimentation & Interfaces**
-3. **Compliance, Onboarding & Shared Language**
-4. **Design, Simulation & Forecasting**
+1. **Governance & Coordination**  
+2. **Risk, Experimentation & Interfaces**  
+3. **Compliance, Onboarding & Shared Language**  
+4. **Design, Simulation & Forecasting**  
 5. **Long-Term Evolution & Stewardship**
 
 Each band is implemented through one or more directories in the repository.
@@ -81,7 +81,7 @@ Define multi-year evolution pathways for governance, safety, interoperability, a
 
 The following Mermaid diagram captures the high-level ecosystem structure and relationships:
 
-```mermaid
+~~~mermaid
 flowchart TD
 
     subgraph GOV[Governance & Coordination]
@@ -131,3 +131,17 @@ flowchart TD
     STRESS --> ROAD
     GOV --> ROAD
     RISK --> ROAD
+~~~
+
+---
+
+## 4. Usage in Diagrams and Presentations
+
+This architecture summary can be used to:
+
+- generate high-level ecosystem diagrams  
+- brief standards bodies and policymakers  
+- orient new institutions and contributors  
+- anchor more detailed subsystem diagrams (e.g., telemetry, risk, or governance flows)
+
+For narrative context, pair this file with the top-level `README.md` and `MASTER_TOC.md`.
